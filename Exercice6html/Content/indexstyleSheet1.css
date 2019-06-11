@@ -1,0 +1,25 @@
+﻿body
+#legend1 
+{
+    background-color: #2574A9;
+}
+#legend2 
+{
+    background-color: #9A12B3;
+}
+
+#legend3 
+{
+    background-color: #DB0A5B;
+}
+ul 
+{
+    list-style: none;
+}
+
+fildset
+{
+    border : 2px ridge;
+}
+
+

@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel=" stylesheet" href="Content/indexstyleSheet1.css" />
+    <title>Exercice6</title>
+</head>
+<body>
+    <form>
+        <fieldset id="legend1">
+        <legend id="partie1">Votre identité</legend>
+    <ul>
+        <li><label for="nom">1.Nom</label> : <input type="text" name="nom" id="pseudo" placeholder="nom" /></li>
+        <li><label for="prenom">2.Prénom</label> : <input type="text" name="prenom" id="pseudo" placeholder="prenom" /></li>
+        <li><label for="e-mail">3.Adresse-mail</label> : <input type="text" name="pseudo" id="pseudo" placeholder="e-mail" /></li>
+    </ul>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset id="legend2">
+        <legend id="partie2">Adresse de livraison</legend>
+    <ul>
+        <li><label for="adresse">1.Adresse</label> : <textarea type="text" id="adresse" placeholder="adresse" rows="2" cols="10"></textarea></li>
+        <li><label for="pseudo">2.Code postal</label> : <input type="text" name="pseudo" id="pseudo" placeholder="code postal" /></li>
+        <li><label for="pseudo">3.Ville</label> : <input type="text" name="pseudo" id="pseudo" placeholder="ville" /></li>
+    </ul>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset id="legend3">
+        <legend id="partie3">Information de réglement</legend>
+    <ul>
+        <li><input type="radio" name="type carte bancaire" value="marque" id="marque" /> <label for="marque">VISA</label></li>          <!--span checkbox pour choisir un choix dans le label carte bancaire, pas recommandé !!!-->
+        <li><input type="radio" name="type carte bancaire" value="marque" id="marque" /> <label for="marque">MASTERCARD</label></li>
+        <li><label for="pseudo">1.Numero de carte</label> : <input type="text" name="pseudo" id="pseudo" placeholder="numero de carte" /></li>
+        <li><label for="pseudo">2.Code de sécurité</label> : <input type="text" name="pseudo" id="pseudo" placeholder="code de sécurité" /></li>
+        <li><label for="pseudo">3.Nom du titulaire</label> : <input type="text" name="pseudo" id="pseudo" placeholder="nom du titulaire" /></li>
+    </ul>
+        </fieldset>
+        <input type="submit" value="envoyer" />
+    </form>
+</body>
+</html>
